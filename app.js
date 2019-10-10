@@ -12,6 +12,7 @@ fetch ("https://www.eventbriteapi.com/v3/events/search/?sort_by=distance&locatio
         <li class="band-item">
             ${event.name.text}<br>
             ${event.start.local}
+            
         </li>`;
         document.getElementById("result").innerHTML = document.getElementById("result").innerHTML + html;
     })
